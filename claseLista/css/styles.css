@@ -23,9 +23,11 @@ a{
     font-size: 20px;
     margin-bottom: 15px;
     margin-top: 15px;
+    list-style: none;
 }
 .food-item{
     margin-bottom: 5px;
+    list-style: none;
 }
 img{
     border-radius: 16px;

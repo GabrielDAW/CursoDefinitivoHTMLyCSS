@@ -1,0 +1,29 @@
+.main-nav {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: rgb(6, 92, 88);
+
+}
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* Pseudo Clases */
+.main-nav__item a:hover {
+    color: rgb(116, 253, 253);
+}
+.main-nav__item a:active {
+    color: bisque;
+}
+
+/* Pseudo Elementos */
+.main-nav__item a::after {
+    content: " | ";
+}
