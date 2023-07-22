@@ -2,39 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="This page will show you pictures of cats">
+    <meta name="description" content="This page will show you pictures of market">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It is my page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Lista de Mercado</h1>
-    </header>
     <main>
-        <section>
-            <article>
-
-            </article>
-        </section>
+        <header>
+            <h1>Lista de Mercado</h1>
+        </header>
         <ul>
-            <li>Frutas</li>
+            <li class="food-category">Frutas</li>
+            <figure>
+                <img src="./pics/frutas.jpg" alt="frutas">
+            </figure>
             <ol>
-                <li><a href="https://www.pequerecetas.com/receta/manzana-18-recetas/" target="_blank">Manzana</a></li>
-                <li><a href="https://www.pequerecetas.com/receta/panna-cotta-panacota/" target="_blank">Fresa</a></li>
-            </ol>
-            <li>Carnes</li>
-            <ol>
-                <li><a href="https://www.cocinacaserayfacil.net/pollo-al-horno-verduras/" target="_blank">Pollo</a></li>
-                <li><a href="https://www.cocinacaserayfacil.net/nuggets-pollo-queso/" target="_blank">Nuggets</a></li>
-            </ol>
-            <li>Verduras</li>
-            <ol>
-                <li><a href="https://www.cocinacaserayfacil.net/recetas-de-verduras/recetas-de-calabaza/" target="_blank">Calabaza</a></li>
-                <li><a href="https://www.cocinacaserayfacil.net/hamburguesa-de-pollo-y-espinacas/">Espinaca</a></li>
+                <li class="food-item"><a href="https://www.pequerecetas.com/receta/manzana-18-recetas/" target="_blank">Manzana</a></li>
+                <li class="food-item">Fresa</li>
+                <li class="food-item">Banana</li>
             </ol>
         </ul>
+        <ul>
+            <li class="food-category">Carnes</li>
+            <figure>
+                <img src="./pics/carnes.jpg" alt="carnes">
+            </figure>
+            <ol>
+                <li class="food-item">Pollo</li>
+                <li class="food-item">Asado</li>
+                <li class="food-item">Bifes</li>
+            </ol>
+        </ul>
+        <ul>
+            <li class="food-category">Cereales</li>
+            <figure>
+                <img src="./pics/cereales.jpg" alt="cereales">
+            </figure>
+            <ol>
+                <li class="food-item">Kellogg's</li>
+                <li class="food-item">General Mills</li>
+                <li class="food-item">Weetabix</li>
+            </ol>
+        </ul> 
     </main>
     <footer>
         <p>Recetas 2023</p>

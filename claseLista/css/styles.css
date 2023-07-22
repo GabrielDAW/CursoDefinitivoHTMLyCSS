@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: #120121;
+    color: aliceblue;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: aliceblue;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.food-category{
+    color: beige;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.food-item{
+    margin-bottom: 5px;
+}
+img{
+    border-radius: 16px;
+    width: 200px;
+}
