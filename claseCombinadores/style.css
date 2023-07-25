@@ -1,0 +1,21 @@
+
+/* Estiqueta que esté cerca se le aplica la regla (+)
+Hermano adyancente cercano (Adjacent sibiling) */
+/*h2 + p {
+    color: brown;
+}*/
+
+/* Hermano general (General sibiling) */
+/*h2 ~ p {
+    color: brown;
+}*/
+
+/* Combinador Child */
+/*div > p {
+    color: brown;
+}*/
+
+/* Combinador Descendiente */
+div p {
+    color: brown;
+}
