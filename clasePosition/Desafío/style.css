@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.parent {
+    display: inline-block;
+}
+
+.box-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: aquamarine;
+    display:flex;
+    align-items: center;
+    position:relative;
+    justify-content: center;
+    top: 4rem;
+    width: 18rem;
+    margin: auto;
+    padding: 2.4rem;
+    border-radius: 1.6rem;
+}
+
+.box-content {
+    font-size: 1.6rem;
+    background-color: bisque;
+    display: inline-block;
+    border: 0.1rem orange solid;
+    padding: 6rem;
+    margin:auto;
+    line-height: calc(1.7rem + 20%);
+    border-radius: 2.4rem;
+}
