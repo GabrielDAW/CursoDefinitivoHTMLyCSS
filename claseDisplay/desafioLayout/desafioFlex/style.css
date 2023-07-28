@@ -13,14 +13,6 @@
     font-size: 1.6rem;
   }
 
-  li {
-    list-style: none;
-  }
-
-  header {
-    height: 5vh;
-    background-color: rgb(205, 254, 254);
-  }
 
   main {
     height: 80vh;
@@ -31,48 +23,64 @@
     background-color: rgb(225, 225, 225);
   }
 
-  figure, nav {
-    display: inline-block;
+  /* -------header------ */
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    background-color: rgb(205, 254, 254);
   }
 
   figure {
-    margin: 1.6rem;
+    margin-left: 3.2rem;
   }
 
-  li {
-    display: inline-block;
-    margin: 1.6rem;
+  nav ul {
+    display: flex;
+    justify-content: space-between;
   }
 
-  nav {
-    position: absolute;
-    right: 1.6rem;
+  nav ul li {
+    margin-right: 3.2rem;
+    list-style: none;
   }
 
-  aside, section {
-    display: inline-block;
+  /* ------content------ */
+
+  main {
+    display: flex;
     height: 80vh;
   }
 
   aside {
     width: 20vw;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(225, 252, 252);
   }
 
   aside div {
     padding: 1.6rem;
     height: 16vh;
-    margin: 3vh;
+    margin: 2vh;
     border-radius: 0.8rem;
     background-color: antiquewhite;
   }
 
   section {
-    position: absolute;
     left: 20vw;
     width: 80vw;
     padding: 2.4rem;
     background-color: rgb(244, 244, 244);
+  }
+
+  /* FOOTER */
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
   }
 
   .footer-social, .footer-info {
