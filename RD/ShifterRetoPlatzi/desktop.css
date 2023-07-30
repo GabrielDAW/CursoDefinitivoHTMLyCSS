@@ -1,0 +1,39 @@
+.header {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    margin: 2.4rem;
+}
+
+.menu li {
+    margin: 2.4rem;
+}
+
+.content {
+    width: 100%;
+    padding: 80px 16px;
+    border-bottom: 1px solid greenyellow;
+    text-align: center;
+}
+
+.routes {
+    margin-left: 2.4rem;
+    padding: 48px 16px;
+    border-bottom: 1px solid greenyellow;
+}
+
+.routes-images {
+    width: 300px;
+}
+
